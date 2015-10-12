@@ -12,7 +12,25 @@
     #submodule for number crunching
 #Style guide
 
-display-
+import pygame
+import display
+
+
+def init():
+    pygame.init()
+    pygame.display.set_mode((700, 500))
+
+init()
+
+"""def loop():
+    control.get_input()
+    logic.process_input()
+    display.show_display()  
+    pass"""
+
+
+
+"""display-
 all active rectangles
 scores
 menus
@@ -27,6 +45,6 @@ logic-
 contains squares in play
 
 control-
-make stuff happen
+make stuff happen"""
 
 
